@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ecf3;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 9000px;
+    min-height: 96vh;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/* Header text */
+.report-header {
+    font-size: 21px;
+    text-align: center;
+    padding: 13px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Main Card - Solid Color */
+.main-card {
+    background: #2563eb;
+    padding: 18px;
+    margin: 0 12px;
+    border-radius: 18px;
+    color: white;
+}
+
+/* Top row */
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.balance span {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.balance h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+/* Small Button */
+.small_btn {
+    background: #1e40af;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Tags Section */
+.tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 18px;
+}
+
+.tag {
+    background: #ffffff;
+    color: #2563eb;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+/* Add Section */
+.add-section {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+}
+
+.plus-circle {
+    width: 42px;
+    height: 42px;
+    background: #1e40af;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Summary Line */
+.summary-grid {
+    display: flex;
+    padding: 18px 12px;
+    gap: 10px;
+}
+
+/* Mini Cards */
+.mini-card {
+    flex: 1;
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    height:62px;
+}
+
+/* Section spacing */
+.expense-section,
+.transaction-section {
+    margin: 20px 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Section title */
+.section-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Expense Categories */
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-item {
+    background: #f8fafc;
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Transactions */
+
+.transaction-card {
+    background: #ffffff;
+    padding: 14px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.transaction-info p {
+    font-size: 13px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.transaction-amount {
+    font-weight: bold;
+    color: #dc2626;
+}
+
+/* Footer */
+.app-footer {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    background: #f1f5f9;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
